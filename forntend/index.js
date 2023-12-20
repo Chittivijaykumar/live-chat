@@ -1,4 +1,4 @@
-const socket = io("ws://leftvijay.temanedtech.com");
+const socket = io("ws://localhost:4000");
 
 const myModal = new bootstrap.Modal(document.getElementById("registerUser"), {
   backdrop: true,
